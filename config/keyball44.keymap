@@ -113,7 +113,7 @@
             label = "MOUSE";
             bindings = <
 &none   &kp N1  &kp N2  &kp N3  &kp N4  &kp N5              &kp N6  &kp N7     &kp N8  &kp N9     &kp N0     &none
-&none   &none   &none   &none   &none   &none               &none   &mkp LCLK  &none   &mkp RCLK  &mkp MCLK  &none
+&none   &none   &none   &none   &none   &none               &mo 6   &mkp LCLK  &mo 5   &mkp RCLK  &mkp MCLK  &none
 &none   &none   &none   &none   &none   &none               &none   &none      &none   &none      &none      &none
 &trans  &trans  &trans  &trans  &trans              &trans  &trans                                           &none
             >;
@@ -122,10 +122,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&none   &none   &none   &none   &none   &none              &none   &none  &none  &none  &none  &none
-&none   &none   &none   &none   &none   &none              &none   &none  &none  &none  &none  &none
-&none   &none   &none   &none   &none   &none              &none   &none  &none  &none  &none  &none
-&trans  &trans  &trans  &trans  &trans             &trans  &trans                              &none
+&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans              &trans  &trans                                  &trans
             >;
         };
 
